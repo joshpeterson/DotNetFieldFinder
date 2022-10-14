@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFieldFinder", "DotNetFieldFinder\DotNetFieldFinder.csproj", "{34E0C541-234C-42FB-B651-91EE94B0CB55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFieldFinder.Tests", "DotNetFieldFinder.Tests\DotNetFieldFinder.Tests.csproj", "{2ADA5AC8-035B-4F55-A950-963A16F5DB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFieldFinder.TestAssembly", "DotNetFieldFinder.TestAssembly\DotNetFieldFinder.TestAssembly.csproj", "{57EA30AC-2180-447B-A1AC-E00B1445E2BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34E0C541-234C-42FB-B651-91EE94B0CB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E0C541-234C-42FB-B651-91EE94B0CB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E0C541-234C-42FB-B651-91EE94B0CB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E0C541-234C-42FB-B651-91EE94B0CB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADA5AC8-035B-4F55-A950-963A16F5DB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADA5AC8-035B-4F55-A950-963A16F5DB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADA5AC8-035B-4F55-A950-963A16F5DB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADA5AC8-035B-4F55-A950-963A16F5DB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EA30AC-2180-447B-A1AC-E00B1445E2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EA30AC-2180-447B-A1AC-E00B1445E2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EA30AC-2180-447B-A1AC-E00B1445E2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EA30AC-2180-447B-A1AC-E00B1445E2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
