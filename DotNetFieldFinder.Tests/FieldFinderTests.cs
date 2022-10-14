@@ -5,7 +5,7 @@ namespace DotNetFieldFinder.Tests;
 
 public class FieldFinderTests
 {
-    private AssemblyDefinition _assembly;
+    private AssemblyDefinition? _assembly;
     
     [SetUp]
     public void Setup()

@@ -5,16 +5,20 @@ namespace DotNetFieldFinder;
 
 public static class FieldFinder
 {
-    public static bool HasField(AssemblyDefinition assembly, string fieldName)
+    public static bool HasField(AssemblyDefinition? assembly, string fieldName)
     {
-        foreach (var type in assembly.MainModule.Types)
+        if (assembly != null)
         {
-            foreach (var field in type.Fields)
+            foreach (var type in assembly.MainModule.Types)
             {
-                if (field.Name == fieldName && !field.IsStatic)
-                    return true;
+                foreach (var field in type.Fields)
+                {
+                    if (field.Name == fieldName && !field.IsStatic)
+                        return true;
+                }
             }
         }
+
         return false;
     }
 }
